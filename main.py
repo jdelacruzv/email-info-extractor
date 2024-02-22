@@ -39,15 +39,6 @@ def split_email(email):
 	return email
 
 
-# def get_user_name(email):
-# 	email_list = split_email(email)
-# 	user = email_list[0]
-# 	for letter in user:
-# 		if letter in special_characters:
-# 			break
-# 	return user[:user.index(letter) + 1].capitalize()
-
-
 def get_user_name(email):
 	email_list = split_email(email)
 	user = email_list[0]
